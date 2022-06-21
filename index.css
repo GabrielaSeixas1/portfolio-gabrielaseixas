@@ -117,10 +117,43 @@ li{list-style: none;
     line-height: 20px;
     color: #828282;
     font-weight: 300;
+    text-decoration: none;
 }
 
 .wrapper-portfolio{
     background-color: #eaeaea;
     display: flex;
     flex-direction: column;
+}
+
+.subtitulo-lista{
+    font-size: 18px;
+    color: #828282;
+    font-weight: 500;
+}
+
+.footer{
+    background-color: #724796;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.estilo-icon{
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.links{
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.lista-footer li {
+    color: #FFFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center ;
 }
